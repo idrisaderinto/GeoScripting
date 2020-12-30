@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function to estimate a linear model.To have a look at the spatial heterogeneity, showing where observations deviates from the model.
 # * rasterStack: a RasterStack containing the layers to be modeled
 

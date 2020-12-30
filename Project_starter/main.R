@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title: Investigating Correlation Between Land Surface Temperature, NDVI and NDBI Using Landsat 8: A Case Study of Tehran
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 # Check availability of libraries
 list.of.packages <- c("satellite", "rgdal", "raster", "sf", "sp", "RStoolbox", "ggplot2", "extrafont", "devtools", "magrittr", "dplyr", "maps", "ggspatial", "RColorBrewer")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
@@ -194,7 +187,7 @@ NDVI_Winter <- ndvi(NIR_Winter, RED_Winter)
 NDVI_minWinter <- minValue(NDVI_Winter)
 NDVI_maxWinter <- maxValue(NDVI_Winter)
 
-##   Land surface emissivity (LSE)
+##   Land Surface Emissivity (LSE)
 # ** LSE Autumn
 LSE_Autumn <- landSurfaceEmissivity(NDVI_Autumn, NDVI_minAutumn, NDVI_maxAutumn)
 

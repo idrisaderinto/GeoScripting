@@ -1,11 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
-
 ## Function to download  data and brick the bands.
 # * URL: data download URL 
 # * datadir: directory to extract the data to

@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function to discard the clouds from the raster images
 # * rasterImg: a raster layer the cloud mask will be performed on
 # * Blue_band: a raster layer - blue band

@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function to plot linear model in a plot contatining 4 linear model results
 # * rasterStack1: linear Model - prediction result
 # * col1: character string - colour code

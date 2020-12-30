@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function to calculate the overall correlation value between two raster layers
 # * rasterStack: a RasterStack containing the layers to be correlated
 overallCorrelation <- function(rasterStack){

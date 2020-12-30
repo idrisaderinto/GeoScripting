@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function to convert pixels digital number (DN) to TOA spectral radiance by using the radiance rescaling factor
 #         Lλ = ML * Qcal + AL
 # Where:

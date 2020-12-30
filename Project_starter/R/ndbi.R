@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function that calculate the Normalized Difference Built-Up Index (NDBI) that 
  # highlights urban areas where there is a higher reflectance in the shortwave-infrared (SWIR) region (with a SWIR band between 1.55-1.75 µm), 
  # compared to the near-infrared (NIR) region.

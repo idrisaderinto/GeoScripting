@@ -1,11 +1,4 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
-# this function calculates the Land Surface Temperature (LST) using Top of atmosphere brightness temperature, wavelength of emitted radiance, Land Surface Emissivity.
+# This function calculates the Land Surface Temperature (LST) using Top of atmosphere brightness temperature, wavelength of emitted radiance, Land Surface Emissivity.
 #       LST = (BT / 1) + W * (BT / 14380) * ln(E)
 # Where:
 # BT = Top of atmosphere brightness temperature (°C)

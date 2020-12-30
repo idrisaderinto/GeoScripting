@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function to compute Top of Atmosphere (TOA) Brightness Temperature
 #         BT = K2 / ln (k1 / Lλ + 1) - 272.15
 # Where:

@@ -1,10 +1,3 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
 ## Function to reproject boundary data using a raster layer.
 # * vector: vector data that will be reprojected 
 # * raster: raster data that reprojection will be based on

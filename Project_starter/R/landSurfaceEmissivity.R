@@ -1,11 +1,4 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
-## this Function calculates the Land surface emissivity (LSE) (i.e. average emissivity of an element of the surface of the Earth) from NDVI values.
+## This Function calculates the Land Surface Emissivity (LSE) (i.e. average emissivity of an element of the surface of the Earth) from NDVI values.
 
 # first, it calculates Proportion of Vegetation 
 #           PV = [(NDVI – NDVI min) / (NDVI max + NDVI min)]^2

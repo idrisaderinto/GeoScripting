@@ -1,12 +1,4 @@
-# Geoscripting 2020 
-# Project 
-# Title:
-# TEAMNAME: Fried Plantain
-# NAME OF TEAM MEMBERS: Margret Azuma and Busra Bozkurt
-# DATE: 24/01/2020
-
-
-## Function that creates
+## Function for plotting
 
 plotting <- function(givefilename, cols, ImgAu, mainAu, ImgSp, mainSp, ImgSu, mainSu, ImgWi, mainWi, givetext){
   png(filename=givefilename, width=800, height=500)

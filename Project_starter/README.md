@@ -1,12 +1,4 @@
-# Geoscripting project repository.
-
-### Geoscripting 2020 
-- **Title:	 Investigating Correlation Between Land Surface Temperature, NDVI and NDBI Using Landsat 8: A Case Study of Tehran**
-- **Team:	 Fried Plaintain**
-- **Date:	19th January 2020**
-
-
-**TASK 1: WHY?**
+## Investigating Correlation Between Land Surface Temperature, NDVI and NDBI Using Landsat 8: A Case Study of Tehran
 
 
 <p align="justify">Urbanization is considered as one of the most significant contributors to global warming, as about two-thirds (55%) of the human population lives in cities<sup>1</sup>. The growth of population and urbanization has caused the phenomenon of Urban Heat Islands (UHI), which can be described as the significant increase of temperatures in urban areas compared to their rural surroundings<sup>2</sup>. UHI and their behaviour can be studied by measuring the Land Surface Temperature (LST)<sup>3</sup>. The ability of remote sensing sensors to measure the surface temperature has resulted in the successful use of Earth Observation data in UHI studies.</p>
@@ -30,10 +22,6 @@ The aim of this study is to conduct the following analysis:
 
 <p align="justify">Tehran, the capital city of Iran, which is located in the northern part of the country at the hillside location of the southern side of Alborz Mountains, within the latitudes of 35◦300 to 35◦510 and the longitudes of 51◦00’ to 51◦400<sup>4</sup>. Tehran has become the most populous city in Iran, in 2016, it had a population of 8.52 million. <sup>5</sup>. The study area leads to mountainous areas from the north and to desert areas for the south, so northern and southern part have different climatic conditions. The northern areas have a dry and cold climate, whereas the southern, it has a warm and dry climate. </div>
 
-
-**TASK 2: WHAT?**
-
-
 **Data Description**
 
 
@@ -46,9 +34,6 @@ The aim of this study is to conduct the following analysis:
  - The Landsat satellite images can be searched and downloaded from the USGS website as [free](https://earthexplorer.usgs.gov/)
  - Droobox link was created for each date to make the data available. Please click (https://www.dropbox.com/s/zg078whpborr2m2/autumn.zip?dl=1)(https://www.dropbox.com/s/upsq1uzipp7x5mw/spring.zip?dl=1)(https://www.dropbox.com/s/vkbfdo5s5r5reas/summer.zip?dl=1)(https://www.dropbox.com/s/t5hc753vl43o31s/winter.zip?dl=1) to access the data. 
  - The administrative boundaries of the Tehran city can be downloaded from the Overpass turbo (is a web based data mining tool for OpenStreetMap)(https://overpass-turbo.eu/)
-
-
-**TASK #: HOW?**
 
 
 **Flowchart**
