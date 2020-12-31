@@ -5,7 +5,7 @@ In the state of Mato Grosso, Brazil, agricultural expansion and illegal logging 
 The steps to find the optimal afforestation area are:
 - Find regions that are within 10 km range from Nature reserves, but are 5 km away from any roads and 8 km away from Croplands.
 - Moreover, to be optimal for afforestation the area has to be located in regions which are currently Abandoned fields. 
-- Calculate the area of your optimal region polygon(s).
+- Calculate the area of optimal region polygon(s).
 - Export the resulting polygon(s) as GeoJSON file(s).
 
 ### Data

@@ -1,6 +1,11 @@
-# Exercise 11, lesson 11
-# Solution
+# Flood Risk
+This project aims to calculate areas at risk of flooding.
 
-Find here <u>one possible solution</u> to Exercise 11 'Flooding Risk Wageningen' of the Geoscripting course. See the [Exercise 11 - Starter](https://github.com/geoscripting-2020/Exercise11_Starter) for the exercise description!
+### Details
+* The folder works with a project structure and well-structured scripts were created with one main script. A main.py module was made that imports functions from another Python module called 'MyFunctions_3.py'. 
+* The OpenStreetMap data was utilized. The OSMNX package developed by [Geoff Boeing](https://geoffboeing.com/), was employed and the documentation can be found here; [osmnx documentation](https://osmnx.readthedocs.io/en/stable/osmnx.html).
 
-Any questions or doubts, or even suggestions for improvements? Please contact one of the teachers or create an issue!
+### Processes
+- MyFunctions_RasterExc.py was written and three functions to extract the AOI, elevation data and calculate flood map were defined
+- A main script was created where the functions from MyFunctions_RasterExc.py were imported
+- The Flood map area was visualized with the matplotlib library

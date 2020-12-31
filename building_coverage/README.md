@@ -1,5 +1,5 @@
 # Building Coverage
-The aim of this project wass to extract building features and calculate the percentage it covers within the Area of Interest (AOI).
+The aim of this project was to extract building features and calculate the percentage it covers within the Area of Interest (AOI).
 
 
 ### Details
@@ -7,6 +7,6 @@ The aim of this project wass to extract building features and calculate the perc
 * The OpenStreetMap data was utilized. The OSMNX package developed by [Geoff Boeing](https://geoffboeing.com/), was employed and the documentation can be found here; [osmnx documentation](https://osmnx.readthedocs.io/en/stable/osmnx.html).
 
 ### Processes
-- MyFunctions_VectorExc.py was written and three functions to extract the AOI, building geometries and calculate the percentage area was defined
+- MyFunctions_VectorExc.py was written and three functions to extract the AOI, building geometries and calculate the percentage area were defined
 - A main script was created where the functions from MyFunctions_VectorExc.py were imported
-- The AOI would be visualized with the folium library and saved as `.html` file
+- The AOI was visualized with the folium library and saved as `.html` file

@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-# For setting up a correct 'geoscripting' conda env (if you not yet have:) run in terminal:
-#   conda create --name geoscripting --file https://raw.githubusercontent.com/geoscripting-2020/Exercise10_solution/master/SetUpCondaEnv.txt?token=AK6V4SJOBDUDL2YBSJ4EJNK556L2M
-#   pip install fiona==1.8.8 geopandas rasterio rasterstats
-"""
+
 import os
 if not os.path.exists('data'): os.makedirs('data')
 if not os.path.exists('output'): os.makedirs('output')
@@ -13,7 +9,7 @@ import MyFunctions_RasterExc as funcs
 
 
 # extract the AOI geometry from OSM
-# It is worth nothing that 'AOI' should be replaced with a placename present on OpenStreetMap
+# It is worth noting that 'AOI' should be replaced with a placename present on OpenStreetMap
 PlaceGDF = funcs.GeocodePlacenameToGDF('AOI', '28992')
 
 # extract extent from the AOI geometry
@@ -35,7 +31,7 @@ PercWaterCoverage = np.count_nonzero(~np.isnan(arr)) / arr.size *100
 from rasterio.plot import show
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots(figsize=(10,10))
-#dsmplot = ax.imshow(FM.read(1), cmap='Oranges', extent=bboxWUR)
+#dsmplot = ax.imshow(FM.read(1), cmap='Oranges', extent=bboxAOI)
 show(FloodMap, ax=ax, cmap='Oranges', extent=bboxAOI)
 PlaceGDF.plot(ax=ax, color='none', edgecolor='black')
 ax.set_title("Waterdepht for flood-case AOI - 10m NAP", fontsize=14)

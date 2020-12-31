@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-# For setting up a correct 'geoscripting' conda env (if you not yet have:) run in terminal:
-#   conda create --name geoscripting --file https://raw.githubusercontent.com/geoscripting-2020/Exercise10_solution/master/SetUpCondaEnv.txt?token=AK6V4SJOBDUDL2YBSJ4EJNK556L2M
-#   pip install fiona==1.8.8 geopandas rasterio rasterstats
-"""
-
 
 def GeocodePlacenameToGDF(placename='AOI', EPSGcode='28992'):
     """This function uses the OSMNX package to extract a geometry 

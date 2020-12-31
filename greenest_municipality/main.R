@@ -1,9 +1,3 @@
-# Geoscripting 2020 
-# Exercise 6
-# Greenest municipality
-# Solution
-# 25/06/2019
-
 # Import packages
 library(raster)
 library(rgdal)
