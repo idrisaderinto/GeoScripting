@@ -117,4 +117,3 @@ barplot(LC_zonalpercentRF, main='Random Forest Prediction', font.main=1, col = c
 barplot(LC_zonalpercentLM, main='Linear Regression Prediction', font.main=1, col = cols)
 mtext(text = 'Average Tree Cover Percent for Each Landcover Class ', side = 1, line=-2, outer=TRUE, cex=2, font = 2)
 dev.off()
-

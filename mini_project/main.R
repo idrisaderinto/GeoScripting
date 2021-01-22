@@ -414,4 +414,3 @@ print(linearModelPlot(NDBI_LST_LM_Winter, "#f4d03f", "#ff0000", "NBVI - LST Line
 dev.off()
 
 
-

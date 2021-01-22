@@ -37,4 +37,3 @@ AOIMap.choropleth(PlaceGDF, name="AOI Campus")
 AOIMap.choropleth(AOIbuildingsGDF, name="Buildings", fill_color='red')
 folium.LayerControl().add_to(AOIMap)
 AOIMap.save('./output/campusMap.html')
-

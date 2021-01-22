@@ -75,4 +75,3 @@ dev.off()
 # Save the raster file to disk
 writeRaster(x = NDVI_dif, filename='output/NDVI_difference.tif', datatype='FLT4S', overwrite= TRUE)
 
-

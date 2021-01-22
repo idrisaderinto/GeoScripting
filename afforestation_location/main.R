@@ -47,7 +47,7 @@ if (!file.exists('output/afforestation_area.geojson')){
   st_write(afforestation_area, dsn = 'output/afforestation_area.geojson')
 }
 
-## Bonus: Plot the final output on top of the Mato Grosso state map. Export as png. 
+# Bonus: Plot the final output on top of the Mato Grosso state map. Export as png. 
 par(mfrow=c(1,1))
 
 png(filename="output/afforestation_map.png", width=800, height=500)

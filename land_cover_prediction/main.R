@@ -104,4 +104,3 @@ write.csv(cm_test, file= "output/confusion_matrix.csv")
 # Compute overall accuracy
 prediction_accuracy = sum(diag(cm_test)) / sum(cm_test) * 100
 print(paste0("The overall prediction accuracy is ", round(prediction_accuracy),"%"))
-

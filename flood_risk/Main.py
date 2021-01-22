@@ -36,4 +36,3 @@ show(FloodMap, ax=ax, cmap='Oranges', extent=bboxAOI)
 PlaceGDF.plot(ax=ax, color='none', edgecolor='black')
 ax.set_title("Waterdepht for flood-case AOI - 10m NAP", fontsize=14)
 plt.show()
-
