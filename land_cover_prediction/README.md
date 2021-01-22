@@ -6,8 +6,6 @@ It would be too much work to manually annotate the entire region, so instead a R
 The RF model was creasted using the classified training polygons. The model was then used to predict the landcover of the entire Gewata region. The LULC reference raster was used to assess the accuracy of the classification. The expected output of the analysis is a landcover prediction map and raster, and the overall classification accuracy of the prediction. 
 
 ### Details
-- The data can be found [here](https://raw.githubusercontent.com/GeoScripting-WUR/AdvancedRasterAnalysis/gh-pages/data/Gewata.zip)
-
 - GADM Gewata region boundaries were used to delineate the study area
 
 
