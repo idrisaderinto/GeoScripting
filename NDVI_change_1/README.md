@@ -1,6 +1,6 @@
 ## NDVI change over time
 
-The [Normalized Difference Vegetation Index](https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index) serves as a good indicator for greenes. A *bi-temporal comparison* of two NDVI images is usually conducted. Simply subtracting the two images should work, but unfortunately these haven't been pre-processed yet. Two Landsat raw surface reflectance products covering the area have been downloaded for you. They were acquired around the same period of the year, but about 30 years apart from each other. Your task is to prepare these images, conduct the bi-temporal comparison, and draw a conclusion.
+The [Normalized Difference Vegetation Index](https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index) serves as a good indicator for greenes. A *bi-temporal comparison* of two NDVI images is usually conducted. Simply subtracting the two images should work, but unfortunately these haven't been pre-processed yet. Two Landsat raw surface reflectance products covering the area were utilized. They were acquired around the same period of the year, but about 30 years apart from each other.
 
 
 ### Details
